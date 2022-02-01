@@ -14,11 +14,11 @@ public class Fatorial {
 
          int soma = 1;
 
-         for (int i = 5; i >= 1; i--) {
+         for (int i = numFat; i >= 1; i--) {
              soma = soma * i;
              
          }
-         System.out.println("Fatorial de " + numFat + " é " + soma);
+         System.out.println("Fatorial de " + numFat + "! é " + soma);
     }
     
 }
